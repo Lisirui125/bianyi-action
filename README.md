@@ -154,6 +154,40 @@ python mcp_server.py
 
 `mcp_server.py` 是 stdio MCP Server。启动后终端处于等待状态是正常现象，需要由 MCP Client、Agent 或魔搭 MCP 平台挂载调用。
 
+### MCP 服务配置
+
+如果魔搭社区自动解析 README 创建 MCP，请使用下面的服务配置。该配置不包含真实密钥，`AMAP_API_KEY` 如需使用请在平台环境变量中单独配置。
+
+```json
+{
+  "mcpServers": {
+    "bianyi-action": {
+      "command": "python",
+      "args": [
+        "mcp_server.py"
+      ],
+      "env": {
+        "MAP_PROVIDER": "auto",
+        "WEB_SEARCH_FALLBACK": "true",
+        "ROUTE_DISTANCE_PROVIDER": "osrm"
+      }
+    }
+  }
+}
+```
+
+如果平台要求填写启动命令，可填写：
+
+```bash
+python mcp_server.py
+```
+
+如果平台要求填写依赖安装命令，可填写：
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ### 可选运行方式
 
 | 方式 | 命令 | 用途 |
