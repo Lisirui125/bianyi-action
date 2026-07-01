@@ -1,0 +1,247 @@
+{
+  "default": [
+    {
+      "title": "政策库暂未覆盖该城市的精确报销规则",
+      "scenario": "general",
+      "scenario_label": "通用提示",
+      "insurance_type": "通用",
+      "summary": "当前 MVP 未内置该城市已核验的起付线、报销比例、封顶线等具体规则。为避免生成错误政策，系统不编造具体比例。",
+      "reimbursement_hint": "可先按医保定点、门诊统筹、住院报销、异地备案、医疗救助五类事项准备材料。",
+      "verification_status": "未核验：需要接入当地医保局公开政策或人工维护政策库",
+      "source_name": "国家医保服务平台",
+      "source_url": "https://fuwu.nhsa.gov.cn/"
+    }
+  ],
+  "北京": [
+    {
+      "title": "北京市急诊医保结算提示",
+      "scenario": "emergency",
+      "scenario_label": "急诊/抢救",
+      "insurance_type": "通用",
+      "summary": "急诊或抢救场景应优先就近救治，医保结算通常按急诊、门诊或住院实际诊疗路径进入结算，项目范围受医保目录和参保身份影响。",
+      "reimbursement_hint": "到急诊收费窗口使用医保卡或电子医保码结算；如转住院，确认急诊费用是否可并入住院或按规定结算。",
+      "verification_status": "政策卡为公开政策摘要，具体以医院医保窗口结算为准",
+      "source_name": "北京市医疗保障局",
+      "source_url": "https://ybj.beijing.gov.cn/"
+    },
+    {
+      "title": "北京市基本医疗保险门诊费用报销提示",
+      "scenario": "outpatient",
+      "scenario_label": "普通门诊",
+      "insurance_type": "通用",
+      "summary": "北京门诊报销通常涉及医保定点医疗机构、起付标准、报销比例、年度支付限额和医保目录范围。职工医保、居民医保规则不同。",
+      "reimbursement_hint": "普通病情优先选择医保定点、距离近、可门诊结算的机构；到院后使用医保卡或电子医保码实时结算。",
+      "verification_status": "政策卡为公开政策摘要，具体比例需按参保类型和医院等级核验",
+      "source_name": "北京市医疗保障局",
+      "source_url": "https://ybj.beijing.gov.cn/"
+    },
+    {
+      "title": "北京市大病/重大疾病就医费用提示",
+      "scenario": "serious_disease",
+      "scenario_label": "严重疾病/疑难专科",
+      "insurance_type": "通用",
+      "summary": "恶性肿瘤等严重疾病可能涉及住院报销、门诊特殊病、医保目录内药品耗材、异地就医备案和大病保险等多层支付。",
+      "reimbursement_hint": "非急诊但严重疾病建议先确认门诊特殊病或住院路径，再考虑本地或全国专科中心；跨城前先做异地备案咨询。",
+      "verification_status": "政策卡为公开政策摘要，需结合参保身份和医院医保窗口核验",
+      "source_name": "北京市医疗保障局",
+      "source_url": "https://ybj.beijing.gov.cn/"
+    },
+    {
+      "title": "跨省异地就医直接结算",
+      "scenario": "remote",
+      "scenario_label": "异地医保",
+      "insurance_type": "通用",
+      "summary": "异地就医一般需要确认备案状态、就医地定点医疗机构和直接结算范围。急诊抢救、转诊转院、长期异地居住等场景规则不同。",
+      "reimbursement_hint": "跨城去专科中心前，先在国家医保服务平台 App 或参保地医保局确认备案和直接结算。",
+      "verification_status": "官方通用规则摘要",
+      "source_name": "国家医保服务平台",
+      "source_url": "https://fuwu.nhsa.gov.cn/"
+    }
+  ],
+  "上海": [
+    {
+      "title": "上海市急诊医保结算提示",
+      "scenario": "emergency",
+      "scenario_label": "急诊/抢救",
+      "insurance_type": "通用",
+      "summary": "急诊就医应优先救治，医保结算会根据参保类型、定点机构、费用项目和是否转住院确定。",
+      "reimbursement_hint": "急诊收费窗口出示医保卡或电子医保码；如医生建议住院，确认急诊费用与住院费用衔接方式。",
+      "verification_status": "政策卡为公开政策摘要，具体以医院医保窗口结算为准",
+      "source_name": "上海市医疗保障局",
+      "source_url": "https://ybj.sh.gov.cn/"
+    },
+    {
+      "title": "上海市门急诊医保报销提示",
+      "scenario": "outpatient",
+      "scenario_label": "普通门急诊",
+      "insurance_type": "通用",
+      "summary": "上海门急诊就医通常涉及医保定点、起付标准、报销比例、个人账户支付和医保目录范围。职工医保、居民医保和年龄段规则不同。",
+      "reimbursement_hint": "轻症优先选择就近医保定点基层或普通门诊；严重专科病情可选择对应专科医院并确认医保结算方式。",
+      "verification_status": "政策卡为公开政策摘要，具体比例需按参保类型核验",
+      "source_name": "上海市医疗保障局",
+      "source_url": "https://ybj.sh.gov.cn/"
+    },
+    {
+      "title": "上海严重疾病和专科就医费用提示",
+      "scenario": "serious_disease",
+      "scenario_label": "严重疾病/疑难专科",
+      "insurance_type": "通用",
+      "summary": "恶性肿瘤等严重疾病通常重点确认门诊大病、住院报销、医保目录、靶向药/特药支付和异地备案。",
+      "reimbursement_hint": "前往肿瘤专科医院前，准备病理、影像、既往治疗记录，并确认门诊大病或住院路径。",
+      "verification_status": "政策卡为公开政策摘要，需以医院医保窗口结算为准",
+      "source_name": "上海市医疗保障局",
+      "source_url": "https://ybj.sh.gov.cn/"
+    }
+  ],
+  "深圳": [
+    {
+      "title": "深圳市急诊医保结算提示",
+      "scenario": "emergency",
+      "scenario_label": "急诊/抢救",
+      "insurance_type": "通用",
+      "summary": "急诊和抢救场景优先就近处理，医保支付需结合参保档次、定点机构、医保目录和是否转住院确定。",
+      "reimbursement_hint": "急诊窗口使用医保码结算；非深圳医保用户需关注异地备案和直接结算状态。",
+      "verification_status": "政策卡为公开政策摘要，具体以医院医保窗口结算为准",
+      "source_name": "深圳市医疗保障局",
+      "source_url": "https://hsa.sz.gov.cn/"
+    },
+    {
+      "title": "深圳市普通门诊统筹提示",
+      "scenario": "outpatient",
+      "scenario_label": "普通门诊",
+      "insurance_type": "通用",
+      "summary": "深圳门诊就医通常需要关注医保定点、社康/医院绑定、普通门诊统筹、医保目录和个人账户支付等规则。",
+      "reimbursement_hint": "小病优先选择就近社康或医保定点普通门诊；经济困难用户优先选择可直接结算的本地定点机构。",
+      "verification_status": "政策卡为公开政策摘要，具体规则需按深圳医保最新政策核验",
+      "source_name": "深圳市医疗保障局",
+      "source_url": "https://hsa.sz.gov.cn/"
+    },
+    {
+      "title": "深圳重大疾病/肿瘤专科费用提示",
+      "scenario": "serious_disease",
+      "scenario_label": "严重疾病/疑难专科",
+      "insurance_type": "通用",
+      "summary": "疑似或确诊肿瘤等严重疾病可重点确认住院报销、门诊特定病种、医保目录内药品、外购药和异地就医备案。",
+      "reimbursement_hint": "深圳本地可优先考虑区域肿瘤专科资源；跨城去北京/上海前先确认异地备案和直接结算。",
+      "verification_status": "政策卡为公开政策摘要，具体规则需按参保身份核验",
+      "source_name": "深圳市医疗保障局",
+      "source_url": "https://hsa.sz.gov.cn/"
+    },
+    {
+      "title": "异地就医备案与直接结算",
+      "scenario": "remote",
+      "scenario_label": "异地医保",
+      "insurance_type": "通用",
+      "summary": "非深圳医保用户在深圳就医，或深圳参保人跨城就医，需要确认异地备案、直接结算、就医地目录和参保地待遇。",
+      "reimbursement_hint": "跨城就医前优先在国家医保服务平台 App 查询备案状态和定点医院。",
+      "verification_status": "官方通用规则摘要",
+      "source_name": "国家医保服务平台",
+      "source_url": "https://fuwu.nhsa.gov.cn/"
+    }
+  ],
+  "广州": [
+    {
+      "title": "广州市急诊医保结算提示",
+      "scenario": "emergency",
+      "scenario_label": "急诊/抢救",
+      "insurance_type": "通用",
+      "summary": "急诊抢救应优先就近救治，医保结算与参保类型、定点机构、费用目录和后续住院路径相关。",
+      "reimbursement_hint": "急诊收费窗口出示医保码；如涉及住院，确认急诊费用是否与住院费用衔接。",
+      "verification_status": "政策卡为公开政策摘要，具体以医院医保窗口结算为准",
+      "source_name": "广州市医疗保障局",
+      "source_url": "https://ybj.gz.gov.cn/"
+    },
+    {
+      "title": "广州市普通门诊统筹提示",
+      "scenario": "outpatient",
+      "scenario_label": "普通门诊",
+      "insurance_type": "通用",
+      "summary": "广州门诊通常需要关注选点定点、普通门诊统筹、医保目录、儿童门急诊和医院等级差异。",
+      "reimbursement_hint": "普通病情优先选择选定的基层或医保定点机构；儿童发热等情况选择有儿科/儿科急诊能力的机构。",
+      "verification_status": "政策卡为公开政策摘要，具体比例需按广州医保最新政策核验",
+      "source_name": "广州市医疗保障局",
+      "source_url": "https://ybj.gz.gov.cn/"
+    },
+    {
+      "title": "广州严重疾病和医疗救助提示",
+      "scenario": "serious_disease",
+      "scenario_label": "严重疾病/疑难专科",
+      "insurance_type": "通用",
+      "summary": "恶性肿瘤等严重疾病可能涉及住院报销、门诊特定病种、大病保险和医疗救助。",
+      "reimbursement_hint": "经济困难用户可同步咨询医院医保办、民政医疗救助和慈善援助。",
+      "verification_status": "政策卡为公开政策摘要，需以医保窗口核验",
+      "source_name": "广州市医疗保障局",
+      "source_url": "https://ybj.gz.gov.cn/"
+    }
+  ],
+  "杭州": [
+    {
+      "title": "杭州市急诊医保结算提示",
+      "scenario": "emergency",
+      "scenario_label": "急诊/抢救",
+      "insurance_type": "通用",
+      "summary": "急诊就医优先就近救治，医保结算通常受定点机构、参保类型、费用项目和是否转住院影响。",
+      "reimbursement_hint": "急诊收费窗口使用医保卡或电子医保码结算；如转住院，确认急诊费用与住院费用处理方式。",
+      "verification_status": "政策卡为公开政策摘要，具体以医院医保窗口结算为准",
+      "source_name": "杭州市医疗保障局",
+      "source_url": "https://ybj.hangzhou.gov.cn/"
+    },
+    {
+      "title": "杭州市门诊医保报销提示",
+      "scenario": "outpatient",
+      "scenario_label": "普通门诊",
+      "insurance_type": "通用",
+      "summary": "杭州门诊就医通常涉及医保定点、门诊统筹、基层首诊、起付标准、报销比例和医保目录范围。",
+      "reimbursement_hint": "轻症优先选择医保定点基层医疗机构；急症优先就近急诊，结算时使用医保码。",
+      "verification_status": "政策卡为公开政策摘要，具体比例需按杭州医保最新政策核验",
+      "source_name": "杭州市医疗保障局",
+      "source_url": "https://ybj.hangzhou.gov.cn/"
+    },
+    {
+      "title": "杭州严重疾病费用路径提示",
+      "scenario": "serious_disease",
+      "scenario_label": "严重疾病/疑难专科",
+      "insurance_type": "通用",
+      "summary": "严重疾病可能涉及住院报销、门诊慢特病、大病保险、特殊药品和医疗救助。",
+      "reimbursement_hint": "跨城就医前建议确认异地备案和参保地待遇；本地治疗优先选择医保定点专科能力强的医院。",
+      "verification_status": "政策卡为公开政策摘要，需以医保窗口核验",
+      "source_name": "杭州市医疗保障局",
+      "source_url": "https://ybj.hangzhou.gov.cn/"
+    }
+  ],
+  "成都": [
+    {
+      "title": "成都市急诊医保结算提示",
+      "scenario": "emergency",
+      "scenario_label": "急诊/抢救",
+      "insurance_type": "通用",
+      "summary": "急诊抢救优先就近处理，医保支付需结合定点机构、费用目录、参保类型和是否转住院确定。",
+      "reimbursement_hint": "急诊窗口使用医保码结算；如经济困难，可同步咨询医院医保办和医疗救助。",
+      "verification_status": "政策卡为公开政策摘要，具体以医院医保窗口结算为准",
+      "source_name": "成都市医疗保障局",
+      "source_url": "https://cdyb.chengdu.gov.cn/"
+    },
+    {
+      "title": "成都市门诊统筹提示",
+      "scenario": "outpatient",
+      "scenario_label": "普通门诊",
+      "insurance_type": "通用",
+      "summary": "成都普通门诊通常涉及门诊统筹、医保定点、起付标准、报销比例、年度限额和医保目录。",
+      "reimbursement_hint": "普通病情优先就近医保定点机构；需要检查检验时确认项目是否在医保目录内。",
+      "verification_status": "政策卡为公开政策摘要，具体规则需按成都医保最新政策核验",
+      "source_name": "成都市医疗保障局",
+      "source_url": "https://cdyb.chengdu.gov.cn/"
+    },
+    {
+      "title": "成都严重疾病/医疗救助提示",
+      "scenario": "serious_disease",
+      "scenario_label": "严重疾病/疑难专科",
+      "insurance_type": "通用",
+      "summary": "重大疾病可能涉及住院报销、门诊特殊疾病、大病保险和医疗救助。",
+      "reimbursement_hint": "经济困难用户可咨询医院医保办、民政救助和慈善援助渠道。",
+      "verification_status": "政策卡为公开政策摘要，需以医保窗口核验",
+      "source_name": "成都市医疗保障局",
+      "source_url": "https://cdyb.chengdu.gov.cn/"
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+[
+  {
+    "id": "hz_001",
+    "name": "浙江大学医学院附属第一医院",
+    "city": "杭州",
+    "district": "上城区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "浙江省杭州市上城区庆春路79号",
+    "lat": 30.2627,
+    "lng": 120.1762,
+    "departments": [
+      "急诊科",
+      "心血管内科",
+      "呼吸内科",
+      "消化内科",
+      "内分泌科",
+      "普外科",
+      "骨科",
+      "儿科"
+    ],
+    "specialties": [
+      "胸痛中心",
+      "卒中中心",
+      "综合急救",
+      "疑难重症"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "hz_002",
+    "name": "杭州市第一人民医院",
+    "city": "杭州",
+    "district": "上城区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "浙江省杭州市上城区浣纱路261号",
+    "lat": 30.2566,
+    "lng": 120.1699,
+    "departments": [
+      "急诊科",
+      "心血管内科",
+      "呼吸内科",
+      "消化内科",
+      "皮肤科",
+      "骨科",
+      "儿科"
+    ],
+    "specialties": [
+      "综合急救",
+      "呼吸疾病",
+      "消化疾病"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "hz_003",
+    "name": "西湖区北山街道社区卫生服务中心",
+    "city": "杭州",
+    "district": "西湖区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "浙江省杭州市西湖区保俶路98号附近",
+    "lat": 30.2686,
+    "lng": 120.1478,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "sh_001",
+    "name": "复旦大学附属中山医院",
+    "city": "上海",
+    "district": "徐汇区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "上海市徐汇区枫林路180号",
+    "lat": 31.1935,
+    "lng": 121.455,
+    "departments": [
+      "急诊科",
+      "心血管内科",
+      "呼吸内科",
+      "消化内科",
+      "普外科",
+      "骨科"
+    ],
+    "specialties": [
+      "心血管",
+      "胸痛中心",
+      "综合急救"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "sh_002",
+    "name": "上海交通大学医学院附属仁济医院东院",
+    "city": "上海",
+    "district": "浦东新区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "上海市浦东新区东方路1630号",
+    "lat": 31.211,
+    "lng": 121.5262,
+    "departments": [
+      "急诊科",
+      "呼吸内科",
+      "消化内科",
+      "心血管内科",
+      "皮肤科",
+      "儿科"
+    ],
+    "specialties": [
+      "浦东综合急救",
+      "儿科",
+      "消化疾病"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "sh_003",
+    "name": "浦东新区陆家嘴社区卫生服务中心",
+    "city": "上海",
+    "district": "浦东新区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "上海市浦东新区乳山路235弄1号",
+    "lat": 31.2395,
+    "lng": 121.5222,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "bj_001",
+    "name": "北京协和医院东单院区",
+    "city": "北京",
+    "district": "东城区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "北京市东城区帅府园1号",
+    "lat": 39.9148,
+    "lng": 116.4147,
+    "departments": [
+      "急诊科",
+      "呼吸内科",
+      "消化内科",
+      "内分泌科",
+      "心血管内科",
+      "普外科",
+      "骨科"
+    ],
+    "specialties": [
+      "疑难重症",
+      "综合急救",
+      "内分泌",
+      "心血管"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "bj_002",
+    "name": "中日友好医院",
+    "city": "北京",
+    "district": "朝阳区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "北京市朝阳区樱花园东街2号",
+    "lat": 39.9741,
+    "lng": 116.4255,
+    "departments": [
+      "急诊科",
+      "呼吸内科",
+      "内分泌科",
+      "骨科",
+      "普外科",
+      "皮肤科"
+    ],
+    "specialties": [
+      "呼吸疾病",
+      "综合急救",
+      "创伤"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "bj_003",
+    "name": "北京市大兴区人民医院",
+    "city": "北京",
+    "district": "大兴区",
+    "level": "三级医院",
+    "type": "general",
+    "address": "北京市大兴区黄村西大街26号",
+    "lat": 39.7318,
+    "lng": 116.3325,
+    "departments": [
+      "急诊科",
+      "普通内科",
+      "呼吸内科",
+      "消化内科",
+      "心血管内科",
+      "骨科",
+      "普外科",
+      "儿科"
+    ],
+    "specialties": [
+      "大兴区就近急救",
+      "普通门诊",
+      "常见病多发病",
+      "综合急救"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "bj_004",
+    "name": "北京市大兴区黄村镇社区卫生服务中心",
+    "city": "北京",
+    "district": "大兴区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "北京市大兴区黄村镇附近",
+    "lat": 39.731,
+    "lng": 116.338,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理",
+      "家庭医生"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "sz_001",
+    "name": "北京大学深圳医院",
+    "city": "深圳",
+    "district": "福田区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "广东省深圳市福田区莲花路1120号",
+    "lat": 22.5536,
+    "lng": 114.0492,
+    "departments": [
+      "急诊科",
+      "心血管内科",
+      "呼吸内科",
+      "消化内科",
+      "骨科",
+      "皮肤科",
+      "儿科"
+    ],
+    "specialties": [
+      "综合急救",
+      "胸痛中心",
+      "儿科"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "sz_002",
+    "name": "深圳市南山区人民医院",
+    "city": "深圳",
+    "district": "南山区",
+    "level": "三级医院",
+    "type": "general",
+    "address": "广东省深圳市南山区桃园路89号",
+    "lat": 22.5334,
+    "lng": 113.9307,
+    "departments": [
+      "急诊科",
+      "呼吸内科",
+      "消化内科",
+      "骨科",
+      "康复医学科",
+      "普通内科"
+    ],
+    "specialties": [
+      "南山就近急救",
+      "骨科",
+      "康复"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "gz_001",
+    "name": "广东省人民医院",
+    "city": "广州",
+    "district": "越秀区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "广东省广州市越秀区中山二路106号",
+    "lat": 23.1257,
+    "lng": 113.2888,
+    "departments": [
+      "急诊科",
+      "心血管内科",
+      "呼吸内科",
+      "消化内科",
+      "普外科",
+      "骨科"
+    ],
+    "specialties": [
+      "综合急救",
+      "心血管",
+      "胸痛中心"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "gz_002",
+    "name": "广州市妇女儿童医疗中心珠江新城院区",
+    "city": "广州",
+    "district": "天河区",
+    "level": "三级甲等",
+    "type": "children",
+    "address": "广东省广州市天河区金穗路9号",
+    "lat": 23.1214,
+    "lng": 113.324,
+    "departments": [
+      "儿科",
+      "儿科急诊",
+      "呼吸科",
+      "消化科",
+      "皮肤科"
+    ],
+    "specialties": [
+      "儿童专科",
+      "儿科急诊",
+      "儿童呼吸"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "儿童急症走儿科急诊入口；普通就诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "cd_001",
+    "name": "四川大学华西医院",
+    "city": "成都",
+    "district": "武侯区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "四川省成都市武侯区国学巷37号",
+    "lat": 30.6422,
+    "lng": 104.0648,
+    "departments": [
+      "急诊科",
+      "心血管内科",
+      "呼吸内科",
+      "消化内科",
+      "骨科",
+      "康复医学科",
+      "皮肤科"
+    ],
+    "specialties": [
+      "疑难重症",
+      "综合急救",
+      "骨科",
+      "消化疾病"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "cd_002",
+    "name": "成都市第三人民医院",
+    "city": "成都",
+    "district": "青羊区",
+    "level": "三级甲等",
+    "type": "general",
+    "address": "四川省成都市青羊区青龙街82号",
+    "lat": 30.6697,
+    "lng": 104.0664,
+    "departments": [
+      "急诊科",
+      "呼吸内科",
+      "消化内科",
+      "心血管内科",
+      "骨科",
+      "普通内科"
+    ],
+    "specialties": [
+      "综合急救",
+      "心血管",
+      "呼吸疾病"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "hz_004",
+    "name": "杭州市西溪医院",
+    "city": "杭州",
+    "district": "西湖区",
+    "level": "三级医院",
+    "type": "general",
+    "address": "浙江省杭州市西湖区留下镇横埠街2号",
+    "lat": 30.2425,
+    "lng": 120.0677,
+    "departments": [
+      "急诊科",
+      "普通内科",
+      "呼吸内科",
+      "消化内科",
+      "感染科",
+      "皮肤科"
+    ],
+    "specialties": [
+      "西湖区就近急救",
+      "普通门诊",
+      "感染性疾病",
+      "常见病多发病"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "hz_005",
+    "name": "上城区湖滨街道社区卫生服务中心",
+    "city": "杭州",
+    "district": "上城区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "浙江省杭州市上城区中山中路附近",
+    "lat": 30.255,
+    "lng": 120.1705,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "sh_004",
+    "name": "徐汇区斜土街道社区卫生服务中心",
+    "city": "上海",
+    "district": "徐汇区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "上海市徐汇区零陵北路附近",
+    "lat": 31.19,
+    "lng": 121.461,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "sh_005",
+    "name": "上海市浦东新区人民医院",
+    "city": "上海",
+    "district": "浦东新区",
+    "level": "三级医院",
+    "type": "general",
+    "address": "上海市浦东新区川沙新镇川环南路490号",
+    "lat": 31.187,
+    "lng": 121.704,
+    "departments": [
+      "急诊科",
+      "普通内科",
+      "呼吸内科",
+      "消化内科",
+      "骨科",
+      "普外科"
+    ],
+    "specialties": [
+      "浦东就近急救",
+      "普通门诊",
+      "常见病多发病"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "sz_003",
+    "name": "福田区福田街道社区健康服务中心",
+    "city": "深圳",
+    "district": "福田区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "广东省深圳市福田区福田街道附近",
+    "lat": 22.54,
+    "lng": 114.06,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "社康",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社康中心公告或地图实时信息为准"
+  },
+  {
+    "id": "sz_004",
+    "name": "南山区南头街道社区健康服务中心",
+    "city": "深圳",
+    "district": "南山区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "广东省深圳市南山区南头街道附近",
+    "lat": 22.538,
+    "lng": 113.93,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "社康",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社康中心公告或地图实时信息为准"
+  },
+  {
+    "id": "gz_003",
+    "name": "广州市天河区人民医院",
+    "city": "广州",
+    "district": "天河区",
+    "level": "二级医院",
+    "type": "general",
+    "address": "广东省广州市天河区东圃大马路13号",
+    "lat": 23.109,
+    "lng": 113.404,
+    "departments": [
+      "急诊科",
+      "普通内科",
+      "呼吸内科",
+      "消化内科",
+      "骨科",
+      "普外科"
+    ],
+    "specialties": [
+      "天河区就近急救",
+      "普通门诊",
+      "常见病多发病"
+    ],
+    "has_emergency": true,
+    "insurance_designated": true,
+    "recommended_entrance": "急诊情况走急诊入口；普通门诊走门诊入口",
+    "phone_note": "请以医院官网或地图实时信息为准"
+  },
+  {
+    "id": "gz_004",
+    "name": "越秀区北京街社区卫生服务中心",
+    "city": "广州",
+    "district": "越秀区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "广东省广州市越秀区北京街附近",
+    "lat": 23.125,
+    "lng": 113.27,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "gz_005",
+    "name": "天河区石牌街社区卫生服务中心",
+    "city": "广州",
+    "district": "天河区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "广东省广州市天河区石牌街附近",
+    "lat": 23.137,
+    "lng": 113.34,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "cd_003",
+    "name": "武侯区玉林社区卫生服务中心",
+    "city": "成都",
+    "district": "武侯区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "四川省成都市武侯区玉林街道附近",
+    "lat": 30.63,
+    "lng": 104.06,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  },
+  {
+    "id": "cd_004",
+    "name": "青羊区草堂社区卫生服务中心",
+    "city": "成都",
+    "district": "青羊区",
+    "level": "基层医疗机构",
+    "type": "community",
+    "address": "四川省成都市青羊区草堂街道附近",
+    "lat": 30.66,
+    "lng": 104.03,
+    "departments": [
+      "全科医学科",
+      "普通内科",
+      "预防保健科",
+      "慢病管理"
+    ],
+    "specialties": [
+      "基层首诊",
+      "常见病慢病管理"
+    ],
+    "has_emergency": false,
+    "insurance_designated": true,
+    "recommended_entrance": "门诊入口",
+    "phone_note": "请以社区卫生服务中心公告或地图实时信息为准"
+  }
+]
